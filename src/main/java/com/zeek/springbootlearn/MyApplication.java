@@ -16,6 +16,10 @@ public class MyApplication {
         System.out.println(MyApplication.class.getClassLoader());
 
         SpringApplication.run(MyApplication.class, args);
+
+//        SpringApplication springApplication = new SpringApplication(MyApplication.class);
+//        springApplication.setBannerMode(Banner.Mode.CONSOLE);
+//        springApplication.run(args);
     }
 
 }
